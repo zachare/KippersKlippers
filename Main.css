@@ -1,0 +1,64 @@
+﻿
+body {
+    background-color: red;
+}
+
+h1 {
+    color: green;
+}
+
+/* Class rules */
+#navMenu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+#navMenu ul li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+
+}
+
+#navMenu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#navMenu ul ul li {
+float: none;
+}
+
+#navMenu ul li:hover > ul {
+    display: block;
+}
+
+#navMenu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#navMenu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navMenu ul li:hover ul {
+    width: 100%;
+}
+
+#navMenu ul li a {
+    text-align: center;
+    display: block;
+    padding: .7em 0;
+    text-decoration: none;
+    background-color: aqua;
+}
+
+
+#navMenu ul li a:hover, #navMenu ul li a:focus {
+    background-color: gray;
+}
