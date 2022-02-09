@@ -7,7 +7,12 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "KippersKlippers", "KippersK
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AAF3C566-8D91-43AC-A559-7E5458AC60D8}"
 	ProjectSection(SolutionItems) = preProject
+		contactUs.html = contactUs.html
 		Index.html = Index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{AC776C21-D35B-4274-8E70-5F0737BC7977}"
+	ProjectSection(SolutionItems) = preProject
 		Main.css = Main.css
 	EndProjectSection
 EndProject
