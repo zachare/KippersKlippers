@@ -1,13 +1,32 @@
-﻿
+﻿html{
+	background-color: #2D5D7B;
+}
 body {
-    background-color: red;
+	display: flex;
+	flex-direction: column;
+    background-color: #457EAC;
+	margin: 5%;
+	border-radius: 25px;
 }
 
-h1 {
-    color: green;
+/* class rules */
+.current{
+	color: #8300A8;
 }
-
-/* Class rules */
+.nonCurrent{
+	color: #292929;
+}
+/* Id rules */
+#title{
+	display: flex;
+	font-family: Impact, fantasy;
+	color: #8300A8;
+	font-size: 36px;
+	justify-content: center;
+}
+#landingContent{
+	padding: 5%;
+}
 #navMenu ul {
     display: flex;
     flex-direction: row;
@@ -55,10 +74,10 @@ float: none;
     display: block;
     padding: .7em 0;
     text-decoration: none;
-    background-color: aqua;
+    background-color: #9191E9;
 }
 
 
 #navMenu ul li a:hover, #navMenu ul li a:focus {
-    background-color: gray;
+    background-color: #C2AFF0;
 }
