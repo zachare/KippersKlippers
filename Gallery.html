@@ -5,20 +5,20 @@
 	<link rel="icon" href="./Images/thumbnail.png">
     <meta charset="utf-8" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="./Main.css" >
-	<link rel="stylesheet" href="./Contact.css" >
-    
+	<link rel="stylesheet" href="./Main.css" >
+	<link rel="stylesheet" href="./Gallery.css" >
+	
 </head>
 <body>
 	<div id="title">
-	<h1>Contact Us</h1>
+	<h1>Our Happy Customers</h1>
 	</div>
     <nav id="navMenu">
         <ul>
             <!--class "current" notes that this is the current webpage. class "nonCurrent" are other webpages which the user is not currently on -->
             <li><a class="nonCurrent" href="index.html">Home</a></li>
-            <li><a class="current" href="contactUs.html">Contact Us</a></li>
-            <li><a class="nonCurrent" href="Gallery.html">Gallery</a></li>
+            <li><a class="NonCurrent" href="contactUs.html">Contact Us</a></li>
+            <li><a class="current" href="Gallery.html">Gallery</a></li>
             <!-- Submenu 1-->
             <li>
                 <a class="nonCurrent">PlaceHolder submenu</a>
@@ -42,31 +42,15 @@
             </li>
         </ul>
     </nav>
- <section class="contact" id="Contact">
-	
-<div id="contactBox">
-
-	<div id="clientInfo">
-		<h3>Contact Info</h3>
-		<form action="https://formsubmit.co/<!---Client's email here-->" method="POST">
-		<input type="name" name="name" size ="50" placeholder="Name" required class="box">		
-		<input type="hidden" name="subject" value="New Email">
-		</form>
-		<form>
-		<input type="email" name="email" size ="50" placeholder="Email" required class="box">
-		</form>
-		<form>
-		<input type="subject" name="subject" size ="50" placeholder="Subject" required class="box">
-		</form>
-		
+	<div id="galleryGrid">
+		<img src="https://static.news.bitcoin.com/wp-content/uploads/2021/08/dogek.jpg" alt="Doge on moon">
+		<img src="https://s3.cointelegraph.com/storage/uploads/view/bad02e8b57a64d349aa5eec318298b4b.png" alt="Queen doge">
+		<img src="https://media.marketrealist.com/brand-img/-5NUfaWj1/0x0/dogecoin-tesla-accept-1624873330423.jpg" alt="Money doge">
+		<img src="https://dogedisco.com/wp-content/uploads/2021/06/Happy-Doge-Over-Earth.jpg" alt="earth doge">
+		<img src="https://cdn-animation.artstation.com/p/thumbnails/000/356/716/thumb.jpg" alt="buff doge">
+		<img src="https://ih1.redbubble.net/image.1244363163.3588/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="cheems">
+		<img src="https://i.imgur.com/2wM5ub5.png" alt="vet doge">
 	</div>
-	<form id="inputBox">
-	<input type="text" name= "message" size ="50" cols="20" rows="10" placeholder="Message" required class="box message">
-	</form>
-	<button type="submit" required class="btn"> Send <i class="i.fas.fa-paper-plane"></i></button>
 
-</div>
-
-</section>
 </body>
 </html>

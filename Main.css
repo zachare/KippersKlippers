@@ -24,15 +24,18 @@ body {
 	font-size: 36px;
 	justify-content: center;
 }
+
 #landingContent{
 	padding: 5%;
 }
+
 #navMenu ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-grow: 1;
 }
+
 #navMenu ul li {
     width: 100%;
     list-style: none;
