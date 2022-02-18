@@ -1,0 +1,25 @@
+﻿input {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+#contactBox{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+#clientInfo{
+	padding-bottom: 2%;
+}
+
+#inputBox{
+	overflow: scroll;
+	resize: both;
+	height: 500px;
+	width: 300px;
+}
