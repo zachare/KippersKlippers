@@ -7,14 +7,12 @@ img {
 	width: 400px;
 	cursor: pointer;
 }
-
 #galleryGrid{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 }
-
 a.linkHover {
 	color:blue; 
 	cursor: pointer;
@@ -25,4 +23,4 @@ a.linkHover {
 a.linkHover:hover {
 	text-decoration: underline;
 	background-color: gold;
-}\n
+}
