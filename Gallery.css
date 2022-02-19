@@ -5,6 +5,7 @@
 	padding-top: 1%;
 	height: 300px;
 	width: 400px;
+	cursor: pointer;
 }
 
 #galleryGrid{
@@ -13,4 +14,16 @@
 	justify-content: space-between;
 	align-items: center;
 
+}
+
+a.linkHover {
+	color:blue; 
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color .5s;
+}
+a.linkHover:hover {
+	text-decoration: underline;
+	background-color: gold;
 }
