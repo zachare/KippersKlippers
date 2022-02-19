@@ -1,10 +1,11 @@
-﻿#galleryGrid img{
+﻿img {
 	padding-left: 2%;
 	padding-right: 2%;
 	padding-bottom: 1%;
 	padding-top: 1%;
 	height: 300px;
 	width: 400px;
+	cursor: pointer;
 }
 
 #galleryGrid{
@@ -12,25 +13,16 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-
 }
 
-#footerinfo{
-    margin: 0 auto;
+a.linkHover {
+	color:blue; 
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color .5s;
 }
-
-#LOGO, #contactinfo, #Menulink{
-    margin:10px;
-   padding:50px;
-    float:left;
-}
-
-#LOGO, #contactinfo, #Menulink, #OpeningHours{
-    margin:10px;
-    padding:50px;
-    float:left;
-}
-
-a{
-    text-decoration: none;
+a.linkHover:hover {
+	text-decoration: underline;
+	background-color: gold;
 }
