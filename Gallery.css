@@ -1,4 +1,4 @@
-﻿img {
+﻿#galleryGrid img{
 	padding-left: 2%;
 	padding-right: 2%;
 	padding-bottom: 1%;
@@ -13,4 +13,24 @@
 	justify-content: space-between;
 	align-items: center;
 
+}
+
+#footerinfo{
+    margin: 0 auto;
+}
+
+#LOGO, #contactinfo, #Menulink{
+    margin:10px;
+   padding:50px;
+    float:left;
+}
+
+#LOGO, #contactinfo, #Menulink, #OpeningHours{
+    margin:10px;
+    padding:50px;
+    float:left;
+}
+
+a{
+    text-decoration: none;
 }

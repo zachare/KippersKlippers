@@ -1,26 +1,26 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<link rel="icon" href="./Images/thumbnail.png">
     <meta charset="utf-8" />
-    <title>Contact Us</title>
     <link rel="stylesheet" href="./Main.css" >
-	<link rel="stylesheet" href="./Contact.css" >
-    
+    <title>Kippers Klippers</title>
+	
 </head>
 <body>
 	<div id="title">
-	<h1>Contact Us</h1>
+	<h1>Kippers Klippers</h1>
 	</div>
     <nav id="navMenu">
         <ul>
             <!--class "current" notes that this is the current webpage. class "nonCurrent" are other webpages which the user is not currently on -->
             <li><a class="nonCurrent" href="index.html">Home</a></li>
             <li><a class="nonCurrent" href="AboutUs.html">About Us</a></li>
-            <li><a class="nonCurrent" href="services.html">Services</a></li>
+            <li><a class="current" href="services.html">Services</a></li>
             <li><a class="nonCurrent" href="Gallery.html">Gallery</a></li>           
-            <li><a class="current" href="contactUs.html">Contact Us</a></li>
+            <li><a class="nonCurrent" href="contactUs.html">Contact Us</a></li>
+
             <!-- Submenu 1
             <li>
                 <a class="nonCurrent">PlaceHolder submenu</a>
@@ -33,32 +33,9 @@
             </li>-->
         </ul>
     </nav>
- <section class="contact" id="Contact">
-	
-<div id="contactBox">
-
-	<div id="clientInfo">
-		<h3>Contact Info</h3>
-		<form action="https://formsubmit.co/<!---Client's email here-->" method="POST">
-		<input type="name" name="name" size ="50" placeholder="Name" required class="box">		
-		<input type="hidden" name="subject" value="New Email">
-		</form>
-		<form>
-		<input type="email" name="email" size ="50" placeholder="Email" required class="box">
-		</form>
-		<form>
-		<input type="subject" name="subject" size ="50" placeholder="Subject" required class="box">
-		</form>
-		
+	<div id="serviceContent">
+	<p>servies</p>
 	</div>
-	<form id="inputBox">
-	<input type="text" name= "message" size ="50" cols="20" rows="10" placeholder="Message" required class="box message">
-	</form>
-	<button type="submit" required class="btn"> Send </button>
-
-</div>
-
-</section>
 
 <!--footer of the website-->
 <div id="footerinfo">
@@ -93,5 +70,6 @@
         </div>
     </footer>
 </div>
+
 </body>
 </html>
