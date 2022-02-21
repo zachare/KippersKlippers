@@ -8,7 +8,21 @@ body {
 	margin: 5%;
 	border-radius: 25px;
 }
-
+p{
+	margin: 5%;
+	
+}
+/*id rules */
+#pageTitle {
+	display: flex;
+	font-family: Impact, fantasy;
+	color: #8300A8;
+	font-size: 36px;
+	justify-content: center;
+}
+#landingContent {
+	padding: 5%;
+}
 /* class rules */
 .current{
 	color: #8300A8;
@@ -16,18 +30,7 @@ body {
 .nonCurrent{
 	color: #292929;
 }
-/* Id rules */
-#title{
-	display: flex;
-	font-family: Impact, fantasy;
-	color: #8300A8;
-	font-size: 36px;
-	justify-content: center;
-}
-
-#landingContent{
-	padding: 5%;
-}
+/* Header Menu CSS */
 
 #navMenu ul {
     display: flex;
@@ -249,4 +252,31 @@ a{
   height: 100%;
   margin: 0;
   box-sizing: border-box;
+}
+
+/* Footer CSS */
+#footerinfo {
+	display: flex;
+    background-color: #9191e9;
+	position: relative;
+	flex-grow: 1;
+	width: 100%;
+	justify-content: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#LOGO img {
+	width: 150px;
+	height: 100px;
+}
+
+#Menulink a{
+	color: black;
+	text-decoration: none;
 }
