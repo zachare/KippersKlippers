@@ -9,20 +9,18 @@ text-align: center;
 text-indent: 30px;
 font-size: 17px;
 line-height: 2;
-padding-left: 6%;
-padding-right: 6%;
+padding: 5px;
+margin: 20px;
 }
 
 .teamimages {
-    display: inline-block;
-    padding: 3%;
-    margin-left: 60px;
-    margin-right: 60px;
+    float: left;
+    border: outset black;
+    padding: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.imagecontainer {
-    text-align: center;
-}
 
 .lefttext,
 .middletext,
