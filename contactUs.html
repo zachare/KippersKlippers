@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -7,6 +7,7 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="./Main.css" >
 	<link rel="stylesheet" href="./Contact.css" >
+	<script src="https://kit.fontawesome.com/cf724c5bd4.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -25,32 +26,24 @@
             <li><a class="nonCurrent" href="AboutUs.html">About Us</a></li>
             <li><a class="nonCurrent" href="services.html">Services</a></li>
             <li><a class="nonCurrent" href="Gallery.html">Gallery</a></li>           
-            <li><a class="current" href="contactUs.html">Contact Us</a></li>
+            <li><a class="current" href="contactUs.html"><i class="fa-solid fa-bone"></i>Contact Us<i class="fa-solid fa-bone"></i></a></li>
         </ul>
     </nav>
  <section class="contact" id="Contact">
 	
-<div id="contactBox">
+<div class="row">
 
-	<div id="clientInfo">
-		<h3>Contact Info</h3>
-		<form action="https://formsubmit.co/<!---Client's email here-->" method="POST">
-		<input type="name" name="name" size ="50" placeholder="Name" required class="box">		
-		<input type="hidden" name="subject" value="New Email">
-		</form>
-		<form>
-		<input type="email" name="email" size ="50" placeholder="Email" required class="box">
-		</form>
-		<form>
-		<input type="subject" name="subject" size ="50" placeholder="Subject" required class="box">
-		</form>
-		
-	</div>
-	<form id="inputBox">
-	<input type="text" name= "message" size ="50" cols="20" rows="10" placeholder="Message" required class="box message">
-	</form>
-	<button type="submit" required class="btn"> Send </button>
+<div class="content">   
 
+<form action="https://formsubmit.co/a.sellen@hotmail.co.uk" method="POST">
+<input type="name" name="name" placeholder="Name" required class="box">                                        
+<input type="hidden" name="_subject" value="New Email"> 
+<input type="email" name="email" placeholder="Email" required class="box">
+<input type="subject" name="subject" placeholder="Subject" required class="box">                                                                     
+<input type="text" name= "message" cols="30" rows="10" placeholder="Message" required class="box message">  
+<button type="submit" required class="btn"> Send <i class="fa-solid fa-paw"></i> </button>
+
+</form>
 </div>
 
 </section>
