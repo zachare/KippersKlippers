@@ -4,8 +4,8 @@
 body {
 	display: flex;
 	flex-direction: column;
-	margin-left: 12%;
-	margin-right: 12%;
+	margin-left: 15%;
+	margin-right: 15%;
 	border-radius: 25px;
 }
 p{
@@ -41,7 +41,6 @@ p{
 }
 
 #navMenu ul ul {
-	margin-top: 0;
     display: none;
     position: absolute;
     top: 100%;
@@ -72,7 +71,6 @@ p{
 }
 
 #navMenu ul li a {
-	margin-top: 0;
     text-align: center;
     display: block;
     padding: 0.7em 0;
@@ -98,6 +96,10 @@ p{
 	display: flex;
 }
 
+#banner {
+	margin: 0;
+}
+
 #banner img {
 	margin-bottom: 0;
 	border-top-left-radius: 15px;
@@ -107,19 +109,21 @@ p{
 
 #pageTitle {
 	font-family: Impact, fantasy;
-	color: #8300A8;
+	color: #dd65ff;
 	position: absolute;
 	border-radius: 25px;
-    top: 40%;
-	left: 21%;
-	height: 25%;
-	width: 25%;
+    top: 43%;
+	left: 10%;
+	height: 35%;
+	width: 34%;
 	background-color: black;
 	opacity: 0.5;
 }
 
 #pageTitle h1 {
-	font-size: 50px;
+	margin: 11%;
+	font-size: 319%;
+	text-shadow: 5px 5px 8px #8300a8;
 }
 
 /* Landing page CSS */
