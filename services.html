@@ -5,36 +5,61 @@
 	<link rel="icon" href="./Images/thumbnail.png">
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./Main.css" >
+    <link rel="stylesheet" href="./services.css" >
+	<script src="https://kit.fontawesome.com/cf724c5bd4.js" crossorigin="anonymous"></script>
     <title>Kippers Klippers</title>
 	
 </head>
 <body>
-	<div id="title">
-	<h1>Kippers Klippers</h1>
+	<div class="titleAndBanner">
+		<div id="pageTitle">
+		<h1>Kippers Klippers</h1>
+		</div>
+		<div id="banner">
+		<img src="banner.jpg" alt="">
+		</div>
 	</div>
     <nav id="navMenu">
         <ul>
             <!--class "current" notes that this is the current webpage. class "nonCurrent" are other webpages which the user is not currently on -->
             <li><a class="nonCurrent" href="index.html">Home</a></li>
             <li><a class="nonCurrent" href="AboutUs.html">About Us</a></li>
-            <li><a class="current" href="services.html">Services</a></li>
+            <li><a class="current" href="services.html"><i class="fa-solid fa-bone"></i>Services<i class="fa-solid fa-bone"></i></a></li>
             <li><a class="nonCurrent" href="Gallery.html">Gallery</a></li>           
             <li><a class="nonCurrent" href="contactUs.html">Contact Us</a></li>
-
-            <!-- Submenu 1
-            <li>
-                <a class="nonCurrent">PlaceHolder submenu</a>
-                <ul>
-                    <li><a class="nonCurrent" href="">PlaceHolder</a></li>
-                    <li><a class="nonCurrent" href="">PlaceHolder</a></li>
-                    <li><a class="nonCurrent" href="">PlaceHolder</a></li>
-                    <li><a class="nonCurrent" href="">PlaceHolder</a></li>
-                </ul>
-            </li>-->
         </ul>
     </nav>
-	<div id="serviceContent">
-	<p>servies</p>
+
+	<div class="serviceContent1">
+	   <h2>Small Services</h2>
+        <ul>       
+            <li>Bath, blow dry and nails - start at $45 
+            <li>Tidy up - starts at $50 
+            <li>Full groom - starts at $55 
+        </ul>   
+
+        <h2>Medium Services</h2>
+         <ul>   
+            <li>BBN - $65
+            <li>Tidy up - $70
+            <li>Full groom - $75
+         </ul>   
+    </div>
+    <div class="serviceContent2">
+        <h2>X-Large Services</h2>
+         <ul>     
+            <li>BBN - $75
+            <li>Tidy up - $80
+            <li>Full groom - $85
+         </ul>   
+
+        <h2>Add-Ons</h2>
+         <ul>   
+            <li>Deshed treatment - $10 to $35
+            <li>Brush teeth - $10
+            <li>File nails - $10
+            <li>Mineral mud bath - $10    
+         </ul> 
 	</div>
 
 <!--footer of the website-->
@@ -42,31 +67,27 @@
     <footer>
         <!--need client's store logo-->
         <div id="LOGO">
-            <img src="logo.png" alt="logo of the brand" width="200" height="150">
+            <img src="logo.png" alt="logo of the brand">
         </div>
         <!--need client's info-->
         <div id="OpeningHours">
-            <h2>Opening Hours</h2>
-            <p>Sunday      Closed</p>
-            <p>Monday      09:00-16:00</p>
-            <p>Tuesday     09:00-16:00</p>
-            <p>Wednesday   09:00-16:00</p>
-            <p>Thursday    09:00-16:00</p>
-            <p>Friday      09:00-16:00</p>
-            <p>Saturday    Closed</p>
+            <h2>Operating Hours</h2>
+            <p>Sunday      		  Closed</p>
+            <p>Monday-Friday      09:00-16:00</p>
+            <p>Saturday    		  Closed</p>
         </div>
         <div id="Menulink">
             <h2>Links</h2>
-            <a href="AboutUs.html" style="color:black;">About Us</a><br><br>
-            <a href="Gallery.html" style="color:black;">Gallery</a><br><br>
-            <a href="service.html" style="color:black;">Services</a><br><br>
-            <a href="contactUs.html" style="color:black;">Contact Us</a>    
+            <a href="AboutUs.html">About Us</a><br><br>
+            <a href="Gallery.html">Gallery</a><br><br>
+            <a href="services.html">Services</a><br><br>
+            <a href="contactUs.html">Contact Us</a>    
         </div>
         <!--need client's contact info-->
         <div id="contactinfo"> 
             <h2>Contact us</h2>
             <a href="https://www.facebook.com/"><img src="FBlogo.png" alt="Link to facebook" style="width:43px;height:43px;"></a>
-            <a href="example.gmail.com"><img src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-for-gmail-email-client-mac-app-store-16.png" alt="Link to email" style="width:42px;height:42px;"></a>
+            <a href="mailto: abc@example.com"><img src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-for-gmail-email-client-mac-app-store-16.png" alt="Link to email" style="width:42px;height:42px;"></a>
         </div>
     </footer>
 </div>
