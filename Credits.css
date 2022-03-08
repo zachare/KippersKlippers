@@ -1,0 +1,71 @@
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+col.first-column {
+    column-width: 50%;
+}
+
+col.second-column {
+    column-width: 50%;
+}
+
+th {
+    font-size: 25pt;
+    text-align: right;
+    vertical-align: top;
+    letter-spacing: 1.5px;
+    font-weight:  700;
+    color: #dd65ff;
+    opacity: 0.6;
+    text-shadow: 1px 1px 0 #8300A8,
+                 2px 2px 0 #8300A8,
+                 3px 3px 0 #8300A8,
+                 4px 4px 0 #8300A8;
+}
+
+td {
+    font-size: 25pt;
+    font-style: italic;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 2px;
+    color: #dd65ff;
+    opacity: 0.6;
+    text-shadow: 1px 1px 0 #8300A8,
+                 2px 2px 0 #8300A8,
+                 3px 3px 0 #8300A8,
+                 4px 4px 0 #8300A8;
+}
+
+h1.credits {
+    ;
+    font-family: Impact, fantasy;
+    font-size: 40pt;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight:  700;
+    color: #dd65ff;
+    opacity: 0.6;
+    text-shadow: 1px 1px 0 #8300A8,
+                 2px 2px 0 #8300A8,
+                 3px 3px 0 #8300A8,
+                 4px 4px 0 #8300A8;
+}
+
+
+/*https://www.compart.com/en/unicode/U+25CF*/
+/*https://stackoverflow.com/questions/25353955/bootstrap-list-inline-with-bullets/25353991*/
+.list-inline{display:block;
+             font-size: 25pt;
+             text-align: center;
+             letter-spacing: 2px;
+             color: #dd65ff;
+             opacity: 0.6;
+             text-shadow: 1px 1px 0 #8300A8,
+                          2px 2px 0 #8300A8,
+                          3px 3px 0 #8300A8,
+                          4px 4px 0 #8300A8;}
+.list-inline li{display:inline-block;}
+.list-inline li:after{content:'\25CF'; margin:1 5px;}
+.list-inline li:last-child:after {content: '';}
