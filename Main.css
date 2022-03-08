@@ -143,7 +143,7 @@ p{
 /*four icons CSS*/
 #icon1and2
 {
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 0;
     display: flex;
     align-items: center;
@@ -170,7 +170,7 @@ p{
     text-align: center;
     display: flex;
     justify-content: space-around;
-    margin-left: 2.3%;
+    margin-left: 1.8%;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
@@ -184,87 +184,85 @@ p{
     text-align: center;
     display: flex;
     justify-content: space-around;
-    margin-right: 1%; 
-    text-shadow: black 0.1em 0.1em 0.2em 
+    margin-right: 2.3%; 
+    text-shadow: black 0.1em 0.1em 0.2em; 
 }
 
 /*menu contents CSS*/
 #menucontent1
 {
     font-family: Garamond;
-    font-size: 3vmin;
+    font-size: 2.8vmin;
     margin-top: -4.5%;
-    width: 23%;
+    width: 30%;
     height: 10%;
-    margin-left: 13.2%;
+    margin-left: 9.6%;
     line-height: 150%;
-    text-align: justify;
-    text-justify:inter-ideograph;
     display:inline-block;
     background-color: #457EAC;
     border-radius: 25px;
     padding: 1%;
+    font-weight: bold;
 }
 
 #menucontent2
 {
     font-family: Garamond;
-    font-size: 3vmin;
+    font-size: 2.8vmin;
     margin-top: -4.5%;
-    width: 23%;
+    width: 30%;
     height: 10%;
-    margin-right: 13.2%;
+    margin-right: 9.6%;
     line-height: 150%;
-    text-align: justify;
-    text-justify:inter-ideograph;
     display:inline-block;
     background-color: #457EAC;
     border-radius: 25px;
     padding: 1%;
     float: right;
+    font-weight: bold;
 }
+
 
 #menucontent3
 {
     font-family: Garamond;
-    font-size: 3vmin;
+    font-size: 2.8vmin;
     margin-top: -4.5%;
     margin-bottom: 8%;
-    width: 23%;
+    width: 30%;
     height: 10%;
-    margin-left: 13.2%;
+    margin-left: 9.6%;
     line-height: 150%;
-    text-align: justify;
-    text-justify:inter-ideograph;
     display:inline-block;
     background-color: #457EAC;
     border-radius: 25px;
     padding: 1%;
+    font-weight: bold;
 }
 
 #menucontent4
 {
     font-family: Garamond;
-    font-size: 3vmin;
+    font-size: 2.8vmin;
     margin-top: -4.5%;
     margin-bottom: 8%;
-    width: 23%;
+    width: 30%;
     height: 10%;
-    margin-right: 13.2%;
+    margin-right: 9.6%;
     line-height: 150%;
-    text-align: justify;
-    text-justify:inter-ideograph;
     display:inline-block;
     background-color: #457EAC;
     border-radius: 25px;
     padding: 1%;
     float: right;
+    font-weight: bold;
 }
 
 
+
 /* slideshow css */
-.slider_container {
-			
+.slider_container 
+{           
   margin: 30px auto;
   width: 100%;
   height: 100%;
@@ -278,7 +276,8 @@ p{
   background-color: #f5f5f5;
 }
 
-.slider_container:before {
+.slider_container:before 
+{
   content: '';
   display: block;
   position: absolute;
@@ -292,7 +291,8 @@ p{
   animation: bk 25s linear;
 }
 
-.slider_container div {
+.slider_container div 
+{
   position: absolute;
   top: 0;
   left: 0;
@@ -304,36 +304,43 @@ p{
   animation: round 25s linear infinite;
 }
 
-.slider_container div img {
+.slider_container div img 
+{
   width: 100%;
 }
 
-@-webkit-keyframes round {
-  4% {
+@-webkit-keyframes round 
+{
+  4% 
+  {
     opacity: 1;
     filter: alpha(opacity=100);
     left: 0;
     /* 0 - 1sec slide in*/
   }
-  20% {
+  20% 
+  {
     opacity: 1;
     filter: alpha(opacity=100);
     left: 0;
     /* 1- 5sec stop*/
   }
-  24% {
+  24% 
+  {
     opacity: 1;
     filter: alpha(opacity=100);
     left: -100%;
     /* 5-6sec slide out*/
   }
-  26% {
+  26% 
+  {
     opacity: 0;
     filter: alpha(opacity=0);
     left: -100%;
     /* 6-6.5sec become transparent*/
   } 
-  28% {
+  28% 
+  {
     opacity: 0;
     filter: alpha(opacity=0);
     left: 100%;
@@ -341,7 +348,8 @@ p{
   } 
 }
 
-@keyframes bk {
+@keyframes bk 
+{
   0% {
     left: 0;
     /* original position*/
@@ -352,7 +360,8 @@ p{
   }   
 }
 
-@keyframes bk {
+@keyframes bk 
+{
   0% {
     left: 0;
     /* original position*/
@@ -363,37 +372,45 @@ p{
   }  
 }
 
-.slider_container div:nth-child(5) {
+.slider_container div:nth-child(5) 
+{
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-.slider_container div:nth-child(4) {
+.slider_container div:nth-child(4) 
+{
   -webkit-animation-delay: 5s;
   animation-delay: 5s;
 }
 
-.slider_container div:nth-child(3) {
+.slider_container div:nth-child(3) 
+{
   -webkit-animation-delay: 10s;
   animation-delay: 10s;
 }
 
-.slider_container div:nth-child(2) {
+.slider_container div:nth-child(2) 
+{
   -webkit-animation-delay: 15s;
   animation-delay: 15s;
 }
 
-.slider_container div:nth-child(1) {
+.slider_container div:nth-child(1) 
+{
   -webkit-animation-delay: 20s;
   animation-delay: 20s;
 }
 
-.rwd_slider_container_wrapper {
+.rwd_slider_container_wrapper 
+{
   margin: auto;
+  margin-top: 3%;
   width: 45%;
 }
 
-.rwd_slider_container {
+.rwd_slider_container 
+{
   position: relative;
   display: block;
   height: 0;
@@ -403,7 +420,8 @@ p{
   box-sizing: border-box;
 }
 
-.rwd_slider_container .slider_container {
+.rwd_slider_container .slider_container 
+{
   position: absolute;
   top: 0;
   bottom: 0;
