@@ -1,3 +1,13 @@
+html{
+	background-color: #2D5D7B;
+}
+body {
+	display: flex;
+	flex-direction: column;
+    background-color: #457EAC;
+	border-radius: 25px;
+}
+
 .title 
 {
 text-align: center;
