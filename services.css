@@ -5,86 +5,20 @@ body {
 	display: flex;
 	flex-direction: column;
     background-color: #457EAC;
-	margin: 5%;
 	border-radius: 25px;
 }
 
-/* class rules */
-.current{
-	color: #8300A8;
-}
-.nonCurrent{
-	color: #292929;
-}
-/* Id rules */
-#title{
-	display: flex;
-	font-family: Impact, fantasy;
-	color: #8300A8;
-	font-size: 36px;
-	justify-content: center;
-}
-
-#landingContent{
-	padding: 5%;
-}
-
-#navMenu ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-grow: 1;
-}
-
-#navMenu ul li {
-    width: 100%;
-    list-style: none;
-    position: relative;
-
-}
-
-#navMenu ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-}
-
-#navMenu ul ul li {
-float: none;
-}
-
-#navMenu ul li:hover > ul {
-    display: block;
-}
-
-#navMenu > ul::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-#navMenu ul {
-    margin: 0;
-    padding: 0;
-}
-
-#navMenu ul li:hover ul {
-    width: 100%;
-}
-
-#navMenu ul li a {
+.servicesTitle 
+{
+    color: #fff;
+    font-family: Garamond;
+    font-size: 2.5vmin;
+    text-shadow: black 0.1em 0.1em 0.2em; 
     text-align: center;
-    display: block;
-    padding: .7em 0;
-    text-decoration: none;
-    background-color: #9191E9;
+    margin-top: 0px;
+    padding-bottom: 25px;
+    border-bottom: 4px double black;
 }
-
-
-#navMenu ul li a:hover, #navMenu ul li a:focus {
-    background-color: #C2AFF0;
-}
-
 
 .serviceContent1 ul{
     background-color: #2D5D7B;
@@ -102,14 +36,20 @@ float: none;
 .serviceContent1
 {
     color: #fff;
+    float: left;
     font-family: Garamond;
     font-size: 2.5vmin;
-    margin-top: 3%;
-    width: 25%;
-    height: 10%;
-    line-height: 150%;
-    padding: 1%;
-    margin-right:10px;
+    width: 35%;
+    height: 15%;
+    line-height: 200%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+.serviceContent1 h2 
+{
+    text-shadow: black 0.1em 0.1em 0.2em; 
 }
 
 .serviceContent2
@@ -117,11 +57,11 @@ float: none;
     color: #fff;
     font-family: Garamond;
     font-size: 2.5vmin;
-    margin-top: 3%;
-    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
     height: 10%;
-    line-height: 150%;
-    padding: 1%;
+    line-height: 200%;
 }
 
 
